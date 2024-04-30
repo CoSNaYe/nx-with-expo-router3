@@ -1,18 +1,25 @@
 {
   "name": "app",
   "version": "0.0.1",
+  "main": "expo-router/entry",
   "private": true,
   "dependencies": {
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
     "metro-config": "*",
     "react-native": "*",
+    "react-native-safe-area-context": "*",
     "expo": "*",
+    "expo-router": "*",
+    "expo-splash-screen": "*",
     "react-native-svg": "*",
-    "react-native-web": "*"
+    "react-native-web": "*",
+    "react": "18.2.0"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/app && cp package-lock.json apps/app",
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/app"
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/app",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   }
 }
