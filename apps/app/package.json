@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.0.1",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-native": "*",
@@ -9,6 +9,9 @@
     "metro-config": "*",
     "react-native": "*",
     "react-native-safe-area-context": "*",
+    "react-native-screens": "*",
+    "react-native-fbsdk-next": "*",
+    "react-native-config": "*",
     "expo": "*",
     "expo-router": "*",
     "expo-splash-screen": "*",
